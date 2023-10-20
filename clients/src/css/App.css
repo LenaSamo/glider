@@ -1,0 +1,109 @@
+:root {
+  --bg: rgb(182, 182, 182);
+  --bg-butt: rgb(68, 68, 68);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Ysabeau+Office&display=swap');
+
+body{
+  background: var(--bg);
+}
+.win{
+  /* display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100%; */
+  text-align: center;
+}
+.punctMenu{
+  background-color: var(--bg-butt);
+  padding: 20px;
+
+}
+.punctMenu li{
+  list-style-type: none;
+}
+.punctMenu .butLi{
+  background-color: var(--bg);
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+}
+.punctMenu .butLi:hover{
+  background-color: var(--bg-butt);
+  color: aliceblue;
+}
+.App{
+  text-align: center;
+}
+.App h1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+  margin: 20px;
+}
+.list{
+  text-align: left;
+  width: 600px;
+  margin: auto;
+}
+.list li{
+  list-style-type: none;
+}
+
+.buttonADD{
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 250px;
+}
+.buttonADD:hover{
+  background-color: var(--bg-butt);
+  color: aliceblue;
+}
+
+/*Модальное окно*/
+#inToDo{
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid var(--bg-butt);
+  border-radius: 20px;
+  width: 300px;
+}
+.divButt{
+  text-align: right;
+}
+.buEx{
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: var(--bg-butt);
+}
+.button{
+  padding: 10px;
+  border: 2px solid var(--bg-butt);
+  border-radius: 20px;
+  width: 200px;
+}
+.button:hover{
+  background-color: var(--bg-butt);
+  color: aliceblue;
+}
+
+#inDel{
+  padding: 5px;
+  border: 1px solid var(--bg-butt);
+  border-radius: 20px;
+  margin: 5px;
+}
+#inDel:hover{
+  background-color: var(--bg-butt);
+  color: aliceblue;
+}
