@@ -1,0 +1,16 @@
+.bodyHome{
+    text-align: center;
+}
+.bodyHome h1{
+    font-family: 'Amatic SC', cursive;
+    color: var(--blush);
+}
+.bodyHome #link{
+    color: var(--gunmetal);
+    text-decoration: none;
+    border-bottom: 0.1rem solid var(--gunmetal);
+}
+.bodyHome #link:visited{
+    color: var(--blush);
+    border-bottom: 0.1rem solid var(--blush);
+}

@@ -1,6 +1,9 @@
 :root {
-  --bg: rgb(182, 182, 182);
-  --bg-butt: rgb(68, 68, 68);
+  --gunmetal: #2C363F;
+  --blush: #E75A7C;
+  --ivory: #F2F5EA;
+  --sage: #BBC7A4;
+  --timberwoif: #D6DBD2;
 }
 *{
   margin: 0;
@@ -9,37 +12,22 @@
   font-size: 25px;
   font-family: 'Ysabeau Office', sans-serif;
 }
+@media (max-width: 500px)  {
+  body{
+     font-size: 50px; 
+  }
+  
+}
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Ysabeau+Office&display=swap');
+.main {
+  margin: 1rem  1rem 1rem 11.5rem; /* Same as the width of the sidenav */
+  
+}
 
 body{
-  background: var(--bg);
+  background: var(--ivory);
 }
-.win{
-  /* display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 100%; */
-  text-align: center;
-}
-.punctMenu{
-  background-color: var(--bg-butt);
-  padding: 20px;
 
-}
-.punctMenu li{
-  list-style-type: none;
-}
-.punctMenu .butLi{
-  background-color: var(--bg);
-  border: none;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 10px;
-  width: 100%;
-}
-.punctMenu .butLi:hover{
-  background-color: var(--bg-butt);
-  color: aliceblue;
-}
 .App{
   text-align: center;
 }
@@ -47,6 +35,7 @@ body{
   font-family: 'Amatic SC', cursive;
   font-size: 70px;
   margin: 20px;
+  color: var(--blush);
 }
 .list{
   text-align: left;
@@ -57,53 +46,14 @@ body{
   list-style-type: none;
 }
 
-.buttonADD{
-  margin: 20px;
-  padding: 10px;
-  border: none;
-  border-radius: 20px;
-  width: 250px;
+
+
+.notFound{
+  text-align: center;
 }
-.buttonADD:hover{
-  background-color: var(--bg-butt);
-  color: aliceblue;
+.notFound h1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 5rem;
+  color: var(--blush);
 }
 
-/*Модальное окно*/
-#inToDo{
-  margin: 20px;
-  padding: 10px;
-  border: 2px solid var(--bg-butt);
-  border-radius: 20px;
-  width: 300px;
-}
-.divButt{
-  text-align: right;
-}
-.buEx{
-  background: transparent;
-  border: none;
-  font-size: 18px;
-  color: var(--bg-butt);
-}
-.button{
-  padding: 10px;
-  border: 2px solid var(--bg-butt);
-  border-radius: 20px;
-  width: 200px;
-}
-.button:hover{
-  background-color: var(--bg-butt);
-  color: aliceblue;
-}
-
-#inDel{
-  padding: 5px;
-  border: 1px solid var(--bg-butt);
-  border-radius: 20px;
-  margin: 5px;
-}
-#inDel:hover{
-  background-color: var(--bg-butt);
-  color: aliceblue;
-}

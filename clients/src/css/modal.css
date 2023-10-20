@@ -17,9 +17,9 @@
     pointer-events: all;
 }
 .modalContent{
-    padding: 10px 20px 20px;
+    padding: 1rem 2rem 2rem;
     border-radius: 20px;
-    background-color: white;
+    background-color: var(--ivory);
     /* width: 30%; */
     transform: scale(0.5);
     transition: 0.4s all;

@@ -1,0 +1,32 @@
+
+.header{
+    /* padding: 0.5rem 0; */
+    text-align: center;
+    background-color: var(--sage);
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    
+}
+.header .Link{
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--gunmetal);
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    border-bottom: 0.1rem solid var(--ivory);
+}
+.header .Link:hover, .header .Link:active{
+    color: var(--ivory);
+    background-color: var(--blush);
+}
+.buttonLink{
+    width: 100%;
+    border: none;
+    background-color: var(--sage);
+}

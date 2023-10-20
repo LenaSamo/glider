@@ -1,0 +1,57 @@
+
+.auth{
+    padding: 1rem;
+    text-align: center;
+    /* background-color: var(--timberwoif); */
+    border-radius: 10px;
+    
+}
+.hmain{
+    display: flex;
+    justify-content: center;
+    
+}
+.hmain .h1{
+    font-family: 'Amatic SC', cursive;
+    padding: 0.5rem;
+    border-bottom: 0.1rem solid var(--timberwoif);
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: var(--blush);
+}
+.hmain .h1Link{
+    font-family: 'Amatic SC', cursive;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--sage);
+}
+.formAuth{
+    margin: 1rem;
+}
+.formAuth .formInput{
+    outline:none;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    background-color: var(--ivory);
+    border: none;
+    border-bottom: 0.1rem solid var(--timberwoif);
+}
+.formAuth .formInput:focus , .formInput:active{
+    border-bottom: 0.1rem solid var(--sage);
+}
+#buttonAuth, #buttonRegist{
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 0.6rem 4rem;
+    background-color: var(--timberwoif);
+    border: none;
+    color: var(--gunmetal);
+}
+#buttonAuth:hover, #buttonRegist:hover{
+    background-color: var(--sage);
+    color: var(--blush);
+}
+#buttonRegist{
+    padding: 0.6rem 3rem;
+}
